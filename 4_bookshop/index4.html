@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshop</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+    <ul class="nav flex-column">
+        <li class="nav-item">
+            <a class="nav-link active" href="../1_forum/index1.html">Задание 1 : ФОРУМ</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../2_test/index2.html">Задание 2: ТЕСТ</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../3_text_style/index3.html">Задание 3: Текстовый редактор</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../4_bookshop/index4.html">Задание 4: Магазин книг</a>
+        </li>
+    </ul>
+    <div class="container">
+        <div class="bookshell">
+            <div class="book book1">
+                <img src="img/learnjavascript.jpg" alt="learnjavascript">
+                <div class="image"></div>
+                <p class="title">Learning Javascript:Javascript Essentials for Modern Application Development</p>
+                <p>Ethan Brown</p>
+                <div class="bottom">
+                    <p class="price">16$</p>
+                    <button class="select1">Select</button>
+                </div>
+            </div>
+            <div class="book book2">
+                <img src="img/scopenclosures.jpg" alt="scopenclosures">
+                <p class="title">You Don't Know JS: Scope & Closures</p>
+                <p>Kile Simpson</p>
+                <div class="bottom">
+                    <p class="price">20$</p>
+                    <button class="select2">Select</button>
+                </div>
+            </div>
+            <div class="book book3">
+                <img src="img/javascriptnjquery.jpg" alt="javascriptnjquery">
+                <p class="title">Javascript and JQuery: Interactive Front-End Web Development</p>
+                <p>Jon Duckett</p>
+                <div class="bottom">
+                    <p class="price">22$</p>
+                    <button class="select3">Select</button>
+                </div>
+            </div>
+
+            <form id="form">
+                <div class="field"><Label for="bookName">Book: </Label><input type="text" id="bookName"></div>
+                <div class="field"><Label for="quantity">Quantity:</Label> <input type="number" id="quantity"></div>
+                <div class="field"><Label for="name">Name:</Label> <input type="text" id="name"></div>
+                <div class="field"><Label for="address">Delivery address:</Label> <textarea name="" id="address"
+                        cols="25" rows="5"></textarea></div>
+                <div class="field"><Label for="date">Delivery date: </Label><input type="date" id="date"></div>
+                <div class="field"><Label for="comment">Comment:</Label> <textarea name="" id="" cols="20" rows="5"
+                        id="comment"></textarea></div>
+                <button type="submit">Buy</button>
+            </form>
+        </div>
+        <div class="resultContainer">
+
+        </div>
+        <template id="result">
+            <div class="result">
+                <h3>Result</h3>
+                <p class="textResult">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam nam et labore
+                    provident
+                    explicabo
+                    quis, aperiam reprehenderit! Temporibus magni, odio velit rem voluptatem, maxime nisi molestiae
+                    iusto, aliquid exercitationem rerum.</p>
+            </div>
+        </template>
+    </div>
+    <script src="script4.js"></script>
+</body>
+
+</html>

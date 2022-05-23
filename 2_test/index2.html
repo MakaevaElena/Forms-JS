@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <ul class="nav flex-column">
+        <li class="nav-item">
+            <a class="nav-link active" href="../1_forum/index1.html">Задание 1 : ФОРУМ</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../2_test/index2.html">Задание 2: ТЕСТ</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../3_text_style/index3.html">Задание 3: Текстовый редактор</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../4_bookshop/index4.html">Задание 4: Магазин книг</a>
+        </li>
+    </ul>
+
+    <div class="container">
+        <div class="question_list">
+            <form class="question" id="question1">
+                <p>1) How many letters are in the word "Hello"?</p>
+                <input type="radio" id="radio1" name="question1" required>
+                <label for="radio1" class="radio1">5</label>
+                <br>
+                <input type="radio" id="radio2" name="question1" required>
+                <label for="radio2" class="radio2">2</label>
+                <br>
+                <input id="button_submit1" type="submit" value="Next"></input>
+            </form>
+            <form class="question hidden" id="question2">
+                <p>2) How many letters are in the word "Word"?</p>
+                <input type="radio" id="radio3" name="question2" required>
+                <label for="radio3" class="radio3">4</label>
+                <br>
+                <input type="radio" id="radio4" name="question2" required>
+                <label for="radio4" class="radio4">5</label>
+                <br>
+                <input id="button_submit2" type="submit" value="Finish"></input>
+            </form>
+
+            <div class="result hidden"></div>
+        </div>
+
+
+        <script src="script2.js"></script>
+    </div>
+
+</body>
+
+</html>

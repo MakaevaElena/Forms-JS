@@ -1,0 +1,67 @@
+.container {
+    margin: 0 auto;
+    width: 65%;
+    background-color: rgb(250, 235, 214);
+    padding: 10px;
+}
+
+h4 {
+    font-size: small;
+    margin: 0;
+    padding: 0;
+}
+
+.post {
+    margin-top: 1%;
+    background-color: rgba(170, 170, 170, 0.123);
+}
+
+.title {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.name_date_block {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(46, 46, 46, 0.5);
+    padding: 10px;
+
+}
+
+.text_post {
+    border: 1px solid rgb(46, 46, 46, 0.5);
+    border-top: 0;
+    padding: 10px;
+}
+
+.forum_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input_name,
+.input_message {
+    display: flex;
+    margin-top: 1%;
+}
+
+.input_name label,
+.input_message label {
+    width: 10%;
+}
+
+.input_name input,
+.input_message textarea {
+    flex: 1;
+}
+
+#button_submit {
+    margin-top: 1%;
+}
+
+@media screen and (max-width: 30em) {
+    h4 {
+        font-size: xx-small;
+    }
+}

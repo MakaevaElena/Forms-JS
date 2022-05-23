@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <ul class="nav flex-column">
+        <li class="nav-item">
+            <a class="nav-link active" href="../1_forum/index1.html">Задание 1 : ФОРУМ</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../2_test/index2.html">Задание 2: ТЕСТ</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../3_text_style/index3.html">Задание 3: Текстовый редактор</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../4_bookshop/index4.html">Задание 4: Магазин книг</a>
+        </li>
+    </ul>
+    <div class="container">
+        <div class="post_list">
+            <template id="post">
+                <div class="post">
+                    <div class="name_date_block">
+                        <div class="name">Name</div>
+                        <div class="date">Date</div>
+                    </div>
+                    <div class="text_post">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, pariatur. Soluta
+                        placeat possimus, reprehenderit et quos, vel voluptatibus quas molestiae fugit voluptatem
+                        officia dolor? Dolorum enim placeat quas neque praesentium.
+                    </div>
+                </div>
+            </template>
+        </div>
+        <div class="title">
+            <h4>Add new message</h4>
+        </div>
+        <form id="form1" class="forum_form">
+            <div class="input_name">
+                <label for="name">
+                    <h4>Your name:</h4>
+                </label>
+                <input type="text" id="name">
+            </div>
+            <div class="input_message">
+                <label for="message">
+                    <h4>Your message:</h4>
+                </label>
+                <textarea id="message"></textarea>
+            </div>
+
+            <input id="button_submit" type="button" value="Send"></input>
+        </form>
+    </div>
+    <script src="script1.js"></script>
+</body>
+
+</html>

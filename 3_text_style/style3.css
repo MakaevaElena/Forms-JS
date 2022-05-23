@@ -1,0 +1,64 @@
+.container {
+    font-size: larger;
+    margin: 0 auto;
+    width: 40%;
+}
+
+form {
+    background-color: beige;
+    margin-bottom: 20px;
+}
+
+.result,
+.styledText {
+    background-color: beige;
+    padding: 20px;
+}
+
+.checkboxes {
+    text-align: center;
+    padding: 20px;
+}
+
+.text,
+.button_submit {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#text,
+#button {
+    width: 90%;
+}
+
+.styledText {
+    border: 1px solid rgb(116, 116, 116);
+}
+
+.hidden {
+    display: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.justify {
+    text-align: justify;
+}

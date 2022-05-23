@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Style</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <ul class="nav flex-column">
+        <li class="nav-item">
+            <a class="nav-link active" href="../1_forum/index1.html">Задание 1 : ФОРУМ</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../2_test/index2.html">Задание 2: ТЕСТ</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../3_text_style/index3.html">Задание 3: Текстовый редактор</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../4_bookshop/index4.html">Задание 4: Магазин книг</a>
+        </li>
+    </ul>
+    <div class="container">
+        <form id="form4">
+            <div class="checkboxes">
+                <input type="checkbox" id="bold">
+                <label for="bold">Bold</label>
+                <input type="checkbox" id="underline">
+                <label for="underline">Underline</label>
+                <input type="checkbox" id="italics">
+                <label for="italics">Italics</label>
+
+                <input type="radio" id="left" name="position">
+                <label for="left">Left</label>
+                <input type="radio" id="right" name="position">
+                <label for="right">Right</label>
+                <input type="radio" id="justify" name="position">
+                <label for="justify">Justify</label>
+
+            </div>
+            <div class="text">
+                <textarea name="text" id="text" cols="30" rows="10" placeholder="Ведите текст"></textarea>
+            </div>
+            <div class="button_submit hidden">
+                <input type="submit" id="button" value="Show text">
+            </div>
+
+        </form>
+
+        <div class="result hidden">Result:
+            <div class="styledText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores magnam labore
+                reprehenderit sunt minima, quam, ipsam minus exercitationem possimus nulla iste ad dicta voluptates?
+                Corporis omnis optio minima quo ipsum?</div>
+        </div>
+
+    </div>
+    <script src="script3.js"></script>
+</body>
+
+</html>
