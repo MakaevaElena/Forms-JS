@@ -31,7 +31,6 @@ select3.addEventListener('click', (evt) => {
 form.addEventListener('submit', (evt) => {
     evt.preventDefault();
 
-
     if (byerName.value && bookName.value && date.value && address.value) {
         bookshell.classList.add('hidden');
 
