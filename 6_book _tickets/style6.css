@@ -1,0 +1,52 @@
+.container {
+    margin: 0 auto;
+    width: 50%;
+    background-color: rgb(250, 235, 214);
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.coupe {
+    border: 1px solid grey;
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.coupe div {
+    border: 1px solid grey;
+    padding-right: 2px;
+}
+
+.seats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.price p,
+.price button {
+    display: inline-block;
+}
+
+.price {
+    text-align: right;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid grey;
+    padding: 10px;
+}
